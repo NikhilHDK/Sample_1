@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SitesTests(failed)">
+    <classes>
+      <class name="sites.Snapdeal">
+        <methods>
+          <include name="snapdeal"/>
+        </methods>
+      </class> <!-- sites.Snapdeal -->
+      <class name="sites.Flipkart">
+        <methods>
+          <include name="flipkart"/>
+        </methods>
+      </class> <!-- sites.Flipkart -->
+      <class name="sites.Amazon">
+        <methods>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- sites.Amazon -->
+    </classes>
+  </test> <!-- SitesTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
