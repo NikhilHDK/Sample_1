@@ -13,5 +13,6 @@ public class Amazon {
 	  driver.get("https://www.amazon.in/");
 	  driver.quit();
 	  
+	  System.out.println("Hey Nik");
   }
 }
