@@ -5,7 +5,10 @@
     <classes>
       <class name="sites.Flipkart"/>
       <class name="sites.Snapdeal"/>
+      <class name="sites.Myntra"/>
+      <class name="sites.MDComputers"/>
       <class name="sites.Amazon"/>
+      <class name="sites.VedantComputers"/>
     </classes>
   </test> <!-- SitesTests -->
 </suite> <!-- Suite -->
